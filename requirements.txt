@@ -1,5 +1,6 @@
 asgiref
 certifi
+channels
 cloudinary
 dj-database-url
 Django
