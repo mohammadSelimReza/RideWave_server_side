@@ -36,7 +36,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
-
+CSRF_TRUSTED_ORIGINS = [
+    'https://ridewave-server-side.onrender.com',
+]
 # Application definition
 
 INSTALLED_APPS = [
